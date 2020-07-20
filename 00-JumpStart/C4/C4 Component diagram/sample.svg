@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1016px" preserveAspectRatio="none" style="width:542px;height:1016px;" version="1.1" viewBox="0 0 542 1016" width="542px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="528" x="2" y="17.9999">Component diagram for Internet Banking System - API Application</text><!--MD5=[7442f3b126ee602ae02566c1a49e158a]
+cluster api--><rect fill="#FFFFFF" height="391" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="486" x="21.75" y="244.5999"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="117" x="206.25" y="262.5999">API Application</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="64" x="232.75" y="277.8">[Container]</text><!--MD5=[30860e21ba0e39165c540f9e23fe2d63]
+entity sign--><rect fill="#85BBF0" height="103.9999" style="stroke: #78A8D8; stroke-width: 1.5;" width="199" x="40.25" y="306.0999"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="134" x="72.75" y="332.0999">Sign In Controller</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="113" x="83.25" y="347.3">[MVC Rest Controlle]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="141.75" y="363.6999"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="175" x="50.25" y="380.4999">Allows users to sign in to the</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="147" x="66.25" y="397.2998">internet banking system</text><!--MD5=[4d2c1095686cc4272d4556037dedae14]
+entity accounts--><rect fill="#85BBF0" height="123.2" style="stroke: #78A8D8; stroke-width: 1.5;" width="217" x="274.25" y="296.5999"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="150" x="305.75" y="322.5999">Accounts Summary</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="76" x="344.75" y="341.7999">Controller</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="113" x="326.25" y="357">[MVC Rest Controlle]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="384.75" y="373.4"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="161" x="300.25" y="390.1999">Provides customers with a</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="197" x="284.25" y="406.9998">summory of their bank accounts</text><!--MD5=[6f1da96282e479ff2a49312c7753703d]
+entity security--><rect fill="#85BBF0" height="120.7998" style="stroke: #78A8D8; stroke-width: 1.5;" width="217" x="38.25" y="497.5999"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="68.25" y="523.5999">Security Component</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="72" x="110.75" y="538.8">[Spring Bean]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="148.75" y="555.1999"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="192" x="48.75" y="571.9999">Provides functionality related to</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="197" x="48.25" y="588.7998">singing in, changing passwords</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="30" x="131.75" y="605.5997">, etc.</text><!--MD5=[8f94240328f985b36a3be06efd5d45ef]
+entity mbsfacade--><rect fill="#85BBF0" height="123.2" style="stroke: #78A8D8; stroke-width: 1.5;" width="201" x="290.25" y="496.5999"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147" x="315.25" y="522.5999">Mainframe Banking</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="117" x="332.25" y="541.7999">System Facade</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="72" x="354.75" y="557">[Spring Bean]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="392.75" y="573.4"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="177" x="300.25" y="590.1999">A facade onto the mainframe</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="340.25" y="606.9998">banking system.</text><!--MD5=[33573e971ff506c0f246109ca3fd77bd]
+entity spa--><rect fill="#438DD5" height="120.7998" style="stroke: #3C7FC0; stroke-width: 1.5;" width="218" x="25.75" y="37.0999"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="181" x="44.25" y="63.0999">Single Page Application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="124" x="72.75" y="78.3">[javascript and angular]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="136.75" y="94.6999"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="198" x="35.75" y="111.4999">Provides all the internet banking</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="178" x="43.75" y="128.2998">functionality to customers via</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="113" x="78.25" y="145.0997">their web browser.</text><!--MD5=[99c5416311fbf9d118be657efd773f39]
+entity ma--><rect fill="#438DD5" height="137.5998" style="stroke: #3C7FC0; stroke-width: 1.5;" width="217" x="307.25" y="28.5999"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="86" x="372.75" y="54.5999">Mobile App</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="51" x="390.25" y="69.8">[Xamarin]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="417.75" y="86.1999"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="191" x="318.25" y="102.9999">Provides a limited subset ot the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="193" x="317.25" y="119.7998">internet banking functionality to</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="159" x="334.25" y="136.5997">customers via their mobile</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="86" x="372.75" y="153.3997">mobile device.</text><!--MD5=[7468467f3b6b392f1d176d828c753b77]
+entity db--><path d="M53.75,723.5999 C53.75,713.5999 146.75,713.5999 146.75,713.5999 C146.75,713.5999 239.75,713.5999 239.75,723.5999 L239.75,850.1996 C239.75,860.1996 146.75,860.1996 146.75,860.1996 C146.75,860.1996 53.75,860.1996 53.75,850.1996 L53.75,723.5999 " fill="#438DD5" style="stroke: #3C7FC0; stroke-width: 1.5;"/><path d="M53.75,723.5999 C53.75,733.5999 146.75,733.5999 146.75,733.5999 C146.75,733.5999 239.75,733.5999 239.75,723.5999 " fill="none" style="stroke: #3C7FC0; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="72" x="110.75" y="753.5999">Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="163" x="65.25" y="768.8">[Relational Database Schema]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="148.75" y="785.1999"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="143" x="73.25" y="801.9999">Stores user registration</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="122" x="83.75" y="818.7998">information, hashed</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="162" x="63.75" y="835.5997">authentication credentials,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="102" x="95.75" y="852.3997">access logs, etc.</text><!--MD5=[caf83f36d3620b5db28366bd7d249751]
+entity mbs--><rect fill="#999999" height="125.5998" style="stroke: #8A8A8A; stroke-width: 1.5;" width="203" x="289.25" y="724.0999"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="147" x="315.25" y="750.0999">Mainframe Banking</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="57" x="362.25" y="769.2999">System</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="392.75" y="786.4999"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="299.25" y="803.2998">Stores all of the core banking</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="178" x="299.75" y="820.0997">information about customers,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="305.75" y="836.8997">accounts, transactions, etc.</text><!--MD5=[95dadc5fd8c5c901d6969e2e98c70c21]
+link sign to security--><path d="M141.56,410.3499 C142.44,435.2699 143.51,465.4999 144.45,492.0299 " fill="none" id="sign-&gt;security" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="144.64,497.2899,148.3293,488.1581,144.4687,492.2928,140.334,488.4322,144.64,497.2899" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="144.75" y="463.5999">Uses</text><!--MD5=[42d8fcfb42dec18b2b51d602409b2c47]
+link accounts to mbsfacade--><path d="M385.2,419.8499 C386.12,442.4699 387.16,468.2299 388.09,491.2799 " fill="none" id="accounts-&gt;mbsfacade" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="388.3,496.4599,391.9371,487.3072,388.1002,491.4639,383.9435,487.6269,388.3,496.4599" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="387.75" y="463.5999">Uses</text><!--MD5=[2f3b256d614db35f96be6b3c1201bf4f]
+link security to db--><path d="M146.75,618.7399 C146.75,646.1799 146.75,679.0999 146.75,708.4399 " fill="none" id="security-&gt;db" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="146.75,713.4999,150.75,704.4999,146.75,708.4999,142.75,704.4999,146.75,713.4999" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="96" x="147.75" y="665.5999">Read &amp; write to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="37" x="177.25" y="680.2">[JDBC]</text><!--MD5=[db502886685a38a9fde1816e185dd0e0]
+link mbsfacade to mbs--><path d="M390.75,619.6299 C390.75,650.0499 390.75,687.0099 390.75,718.3699 " fill="none" id="mbsfacade-&gt;mbs" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="390.75,723.7599,394.75,714.7599,390.75,718.7599,386.75,714.7599,390.75,723.7599" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="412.25" y="665.5999">Uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="73" x="391.75" y="680.2">[XML/HTTPS]</text><!--MD5=[c99bcb02a7404ff7207e229366f7705a]
+link spa to sign--><path d="M89.06,158.3599 C77.68,179.8599 70.13,204.7099 75.75,228.5999 C81.66,253.7399 93.28,279.5799 105.01,301.4399 " fill="none" id="spa-&gt;sign" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="107.51,306.0399,106.7119,296.2234,105.1157,301.6504,99.6887,300.0542,107.51,306.0399" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="100.75" y="210.5999">Uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="76.75" y="225.2">[JSON/HTTPS]</text><!--MD5=[cadaf8a8a3c36cf6631f6dffced8899b]
+link spa to accounts--><path d="M149.9,158.3999 C159.44,183.9599 174.5,211.7499 197.75,228.5999 C219.18,244.1299 232.91,225.1199 256.75,236.5999 C284.33,249.8899 309.79,271.4899 330.49,292.7499 " fill="none" id="spa-&gt;accounts" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="334.04,296.4399,330.6722,287.1847,330.5693,292.8406,324.9134,292.7378,334.04,296.4399" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="222.75" y="210.5999">Uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="198.75" y="225.2">[JSON/HTTPS]</text><!--MD5=[f21b9bec839c07106b83575f200b93d2]
+link ma to sign--><path d="M346,166.7799 C335.83,176.7699 325.51,186.9399 315.75,196.5999 C301.46,210.7499 301.04,218.3199 283.75,228.5999 C272.99,234.9999 267.46,230.1199 256.75,236.5999 C228.69,253.5799 202.69,278.8999 182.37,301.9599 " fill="none" id="ma-&gt;sign" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="178.9,305.9399,187.8279,301.7815,182.1844,302.1699,181.796,296.5264,178.9,305.9399" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="340.75" y="210.5999">Uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="316.75" y="225.2">[JSON/HTTPS]</text><!--MD5=[334addda0037abd6e432739e1785e7cb]
+link ma to accounts--><path d="M411.79,166.8699 C410.29,186.8099 408.3,208.6199 405.75,228.5999 C403.13,249.1199 399.46,271.3399 395.81,291.4399 " fill="none" id="ma-&gt;accounts" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="394.89,296.4999,400.4417,288.3648,395.7882,291.5812,392.5718,286.9277,394.89,296.4999" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="433.75" y="210.5999">Uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="409.75" y="225.2">[JSON/HTTPS]</text><rect fill="#DDDDDD" height="131.5995" rx="5" ry="5" style="stroke: #000000; stroke-width: 1.0;" width="172" x="336.25" y="874.1996"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="398.25" y="895.1996"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="34" x="402.25" y="895.1996">Type</text><rect fill="#08427B" height="16.7999" style="stroke: none; stroke-width: 1.0;" width="56" x="342.25" y="897.9996"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="366.25" y="911.9995"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="402.25" y="911.9995">person</text><rect fill="#686868" height="16.7999" style="stroke: none; stroke-width: 1.0;" width="56" x="342.25" y="914.7995"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="366.25" y="928.7994"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="402.25" y="928.7994">external person</text><rect fill="#1168BD" height="16.7999" style="stroke: none; stroke-width: 1.0;" width="56" x="342.25" y="931.5994"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="354.25" y="945.5994"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="43" x="402.25" y="945.5994">system</text><rect fill="#999999" height="16.7999" style="stroke: none; stroke-width: 1.0;" width="56" x="342.25" y="948.3993"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="366.25" y="962.3993"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="96" x="402.25" y="962.3993">external system</text><rect fill="#438DD5" height="16.7999" style="stroke: none; stroke-width: 1.0;" width="56" x="342.25" y="965.1993"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="354.25" y="979.1992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="402.25" y="979.1992">container</text><rect fill="#85BBF0" height="16.7999" style="stroke: none; stroke-width: 1.0;" width="56" x="342.25" y="981.9992"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="354.25" y="995.9991"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="67" x="402.25" y="995.9991">component</text><line style="stroke: #000000; stroke-width: 1.0;" x1="342.25" x2="502.25" y1="881.1996" y2="881.1996"/><line style="stroke: #000000; stroke-width: 1.0;" x1="342.25" x2="502.25" y1="897.9996" y2="897.9996"/><line style="stroke: #000000; stroke-width: 1.0;" x1="342.25" x2="502.25" y1="914.7995" y2="914.7995"/><line style="stroke: #000000; stroke-width: 1.0;" x1="342.25" x2="502.25" y1="931.5994" y2="931.5994"/><line style="stroke: #000000; stroke-width: 1.0;" x1="342.25" x2="502.25" y1="948.3993" y2="948.3993"/><line style="stroke: #000000; stroke-width: 1.0;" x1="342.25" x2="502.25" y1="965.1993" y2="965.1993"/><line style="stroke: #000000; stroke-width: 1.0;" x1="342.25" x2="502.25" y1="981.9992" y2="981.9992"/><line style="stroke: #000000; stroke-width: 1.0;" x1="342.25" x2="502.25" y1="998.7991" y2="998.7991"/><line style="stroke: #000000; stroke-width: 1.0;" x1="342.25" x2="342.25" y1="881.1996" y2="998.7991"/><line style="stroke: #000000; stroke-width: 1.0;" x1="398.25" x2="398.25" y1="881.1996" y2="998.7991"/><line style="stroke: #000000; stroke-width: 1.0;" x1="502.25" x2="502.25" y1="881.1996" y2="998.7991"/><!--MD5=[7ad476dfa0c72d7c2fce6d2ffd5bacfd]
+@startuml
+
+' C4-PlantUML, version 1.0.0
+' https://github.com/RicardoNiepel/C4-PlantUML
+
+' Colors
+' ##################################
+
+!define ELEMENT_FONT_COLOR #FFFFFF
+
+' Styling
+' ##################################
+
+!define TECHN_FONT_SIZE 12
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+' Layout
+' ##################################
+
+!definelong LAYOUT_AS_SKETCH
+skinparam backgroundColor #EEEBDC
+skinparam handwritten true
+skinparam defaultFontName "Comic Sans MS"
+center footer <font color=red>Warning:</font> Created for discussion, needs to be validated
+!enddefinelong
+
+!define LAYOUT_TOP_DOWN top to bottom direction
+!define LAYOUT_LEFT_RIGHT left to right direction
+
+' Boundaries
+' ##################################
+
+!define Boundary(e_alias, e_label) rectangle "==e_label" <<boundary>> as e_alias
+!define Boundary(e_alias, e_label, e_type) rectangle "==e_label\n<size:TECHN_FONT_SIZE>[e_type]</size>" <<boundary>> as e_alias
+
+' Relationship
+' ##################################
+
+!define Rel_(e_alias1, e_alias2, e_label, e_direction="") e_alias1 e_direction e_alias2 : "===e_label"
+!define Rel_(e_alias1, e_alias2, e_label, e_techn, e_direction="") e_alias1 e_direction e_alias2 : "===e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//"
+
+!define Rel(e_from,e_to, e_label) Rel_(e_from,e_to, e_label, "- ->")
+!define Rel(e_from,e_to, e_label, e_techn) Rel_(e_from,e_to, e_label, e_techn, "- ->")
+
+!define Rel_Back(e_to, e_from, e_label) Rel_(e_to, e_from, e_label, "<- -")
+!define Rel_Back(e_to, e_from, e_label, e_techn) Rel_(e_to, e_from, e_label, e_techn, "<- -")
+
+!define Rel_Neighbor(e_from,e_to, e_label) Rel_(e_from,e_to, e_label, "->")
+!define Rel_Neighbor(e_from,e_to, e_label, e_techn) Rel_(e_from,e_to, e_label, e_techn, "->")
+
+!define Rel_Back_Neighbor(e_to, e_from, e_label) Rel_(e_to, e_from, e_label, "<-")
+!define Rel_Back_Neighbor(e_to, e_from, e_label, e_techn) Rel_(e_to, e_from, e_label, e_techn, "<-")
+
+!define Rel_D(e_from,e_to, e_label) Rel_(e_from,e_to, e_label, "-DOWN->")
+!define Rel_D(e_from,e_to, e_label, e_techn) Rel_(e_from,e_to, e_label, e_techn, "-DOWN->")
+!define Rel_Down(e_from,e_to, e_label) Rel_D(e_from,e_to, e_label)
+!define Rel_Down(e_from,e_to, e_label, e_techn) Rel_D(e_from,e_to, e_label, e_techn)
+
+!define Rel_U(e_from,e_to, e_label) Rel_(e_from,e_to, e_label, "-UP->")
+!define Rel_U(e_from,e_to, e_label, e_techn) Rel_(e_from,e_to, e_label, e_techn, "-UP->")
+!define Rel_Up(e_from,e_to, e_label) Rel_U(e_from,e_to, e_label)
+!define Rel_Up(e_from,e_to, e_label, e_techn) Rel_U(e_from,e_to, e_label, e_techn)
+
+!define Rel_L(e_from,e_to, e_label) Rel_(e_from,e_to, e_label, "-LEFT->")
+!define Rel_L(e_from,e_to, e_label, e_techn) Rel_(e_from,e_to, e_label, e_techn, "-LEFT->")
+!define Rel_Left(e_from,e_to, e_label) Rel_L(e_from,e_to, e_label)
+!define Rel_Left(e_from,e_to, e_label, e_techn) Rel_L(e_from,e_to, e_label, e_techn)
+
+!define Rel_R(e_from,e_to, e_label) Rel_(e_from,e_to, e_label, "-RIGHT->")
+!define Rel_R(e_from,e_to, e_label, e_techn) Rel_(e_from,e_to, e_label, e_techn, "-RIGHT->")
+!define Rel_Right(e_from,e_to, e_label) Rel_R(e_from,e_to, e_label)
+!define Rel_Right(e_from,e_to, e_label, e_techn) Rel_R(e_from,e_to, e_label, e_techn)
+
+' Layout Helpers
+' ##################################
+
+!define Lay_D(e_from, e_to) e_from -[hidden]D- e_to
+!define Lay_U(e_from, e_to) e_from -[hidden]U- e_to
+!define Lay_R(e_from, e_to) e_from -[hidden]R- e_to
+!define Lay_L(e_from, e_to) e_from -[hidden]L- e_to
+' Scope: A single software system.
+' Primary elements: The software system in scope.
+' Supporting elements: People and software systems directly connected to the software system in scope.
+' Intended audience: Everybody, both technical and non-technical people, inside and outside of the software development team.
+
+' Colors
+' ##################################
+
+!define PERSON_BG_COLOR #08427B
+!define EXTERNAL_PERSON_BG_COLOR #686868
+!define SYSTEM_BG_COLOR #1168BD
+!define EXTERNAL_SYSTEM_BG_COLOR #999999
+
+' Styling
+' ##################################
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor PERSON_BG_COLOR
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor EXTERNAL_PERSON_BG_COLOR
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor SYSTEM_BG_COLOR
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor EXTERNAL_SYSTEM_BG_COLOR
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor SYSTEM_BG_COLOR
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor EXTERNAL_SYSTEM_BG_COLOR
+    BorderColor #8A8A8A
+}
+
+' Layout
+' ##################################
+
+!definelong LAYOUT_WITH_LEGEND
+hide stereotype
+legend right
+|=              |= Type |
+|<PERSON_BG_COLOR>      | person |
+|<EXTERNAL_PERSON_BG_COLOR>      | external person |
+|<SYSTEM_BG_COLOR>   | system |
+|<EXTERNAL_SYSTEM_BG_COLOR>      | external system |
+endlegend
+!enddefinelong
+
+' Elements
+' ##################################
+
+!define Person(e_alias, e_label) rectangle "==e_label" <<person>> as e_alias
+!define Person(e_alias, e_label, e_descr) rectangle "==e_label\n\n e_descr" <<person>> as e_alias
+
+!define Person_Ext(e_alias, e_label) rectangle "==e_label" <<external_person>> as e_alias
+!define Person_Ext(e_alias, e_label, e_descr) rectangle "==e_label\n\n e_descr" <<external_person>> as e_alias
+
+!define System(e_alias, e_label) rectangle "==e_label" <<system>> as e_alias
+!define System(e_alias, e_label, e_descr) rectangle "==e_label\n\n e_descr" <<system>> as e_alias
+
+!define System_Ext(e_alias, e_label) rectangle "==e_label" <<external_system>> as e_alias
+!define System_Ext(e_alias, e_label, e_descr) rectangle "==e_label\n\n e_descr" <<external_system>> as e_alias
+
+!define SystemDb(e_alias, e_label) database "==e_label" <<system>> as e_alias
+!define SystemDb(e_alias, e_label, e_descr) database "==e_label\n\n e_descr" <<system>> as e_alias
+
+!define SystemDb_Ext(e_alias, e_label) database "==e_label" <<external_system>> as e_alias
+!define SystemDb_Ext(e_alias, e_label, e_descr) database "==e_label\n\n e_descr" <<external_system>> as e_alias
+
+' Boundaries
+' ##################################
+
+!define Enterprise_Boundary(e_alias, e_label) Boundary(e_alias, e_label, "Enterprise")
+!define System_Boundary(e_alias, e_label) Boundary(e_alias, e_label, "System")
+' Scope: A single software system.
+' Primary elements: Containers within the software system in scope.
+' Supporting elements: People and software systems directly connected to the containers.
+' Intended audience: Technical people inside and outside of the software development team; including software architects, developers and operations/support staff.
+
+' Colors
+' ##################################
+
+!define CONTAINER_BG_COLOR #438DD5
+
+' Styling
+' ##################################
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor CONTAINER_BG_COLOR
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor ELEMENT_FONT_COLOR
+    BackgroundColor CONTAINER_BG_COLOR
+    BorderColor #3C7FC0
+}
+
+' Layout
+' ##################################
+
+!definelong LAYOUT_WITH_LEGEND
+hide stereotype
+legend right
+|=              |= Type |
+|<PERSON_BG_COLOR>      | person |
+|<EXTERNAL_PERSON_BG_COLOR>      | external person |
+|<SYSTEM_BG_COLOR>   | system |
+|<EXTERNAL_SYSTEM_BG_COLOR>      | external system |
+|<CONTAINER_BG_COLOR>   | container |
+endlegend
+!enddefinelong
+
+' Elements
+' ##################################
+
+!define Container(e_alias, e_label, e_techn) rectangle "==e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//" <<container>> as e_alias
+!define Container(e_alias, e_label, e_techn, e_descr) rectangle "==e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//\n\n e_descr" <<container>> as e_alias
+
+!define ContainerDb(e_alias, e_label, e_techn) database "==e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//" <<container>> as e_alias
+!define ContainerDb(e_alias, e_label, e_techn, e_descr) database "==e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//\n\n e_descr" <<container>> as e_alias
+
+' Boundaries
+' ##################################
+
+!define Container_Boundary(e_alias, e_label) Boundary(e_alias, e_label, "Container")
+' Scope: A single container.
+' Primary elements: Components within the container in scope.
+' Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
+' Intended audience: Software architects and developers.
+
+' Colors
+' ##################################
+
+!define COMPONENT_BG_COLOR #85BBF0
+
+' Styling
+' ##################################
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor #000000
+    BackgroundColor COMPONENT_BG_COLOR
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor ELEMENT_FONT_COLOR
+    FontColor #000000
+    BackgroundColor COMPONENT_BG_COLOR
+    BorderColor #78A8D8
+}
+
+' Layout
+' ##################################
+
+!definelong LAYOUT_WITH_LEGEND
+hide stereotype
+legend right
+|=              |= Type |
+|<PERSON_BG_COLOR>      | person |
+|<EXTERNAL_PERSON_BG_COLOR>      | external person |
+|<SYSTEM_BG_COLOR>   | system |
+|<EXTERNAL_SYSTEM_BG_COLOR>      | external system |
+|<CONTAINER_BG_COLOR>   | container |
+|<COMPONENT_BG_COLOR>   | component |
+endlegend
+!enddefinelong
+
+' Elements
+' ##################################
+
+!define Component(e_alias, e_label, e_techn) rectangle "==e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//" <<component>> as e_alias
+!define Component(e_alias, e_label, e_techn, e_descr) rectangle "==e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//\n\n e_descr" <<component>> as e_alias
+
+!define ComponentDb(e_alias, e_label, e_techn) database "==e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//" <<component>> as e_alias
+!define ComponentDb(e_alias, e_label, e_techn, e_descr) database "==e_label\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//\n\n e_descr" <<component>> as e_alias
+
+LAYOUT_WITH_LEGEND()
+
+title Component diagram for Internet Banking System - API Application
+
+Container(spa, "Single Page Application", "javascript and angular", "Provides all the internet banking functionality to customers via their web browser.")
+Container(ma, "Mobile App", "Xamarin", "Provides a limited subset ot the internet banking functionality to customers via their mobile mobile device.")
+ContainerDb(db, "Database", "Relational Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.")
+System_Ext(mbs, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+
+Container_Boundary(api, "API Application") {
+    Component(sign, "Sign In Controller", "MVC Rest Controlle", "Allows users to sign in to the internet banking system")
+    Component(accounts, "Accounts Summary Controller", "MVC Rest Controlle", "Provides customers with a summory of their bank accounts")
+    Component(security, "Security Component", "Spring Bean", "Provides functionality related to singing in, changing passwords, etc.")
+    Component(mbsfacade, "Mainframe Banking System Facade", "Spring Bean", "A facade onto the mainframe banking system.")
+
+    Rel(sign, security, "Uses")
+    Rel(accounts, mbsfacade, "Uses")
+    Rel(security, db, "Read & write to", "JDBC")
+    Rel(mbsfacade, mbs, "Uses", "XML/HTTPS")
+}
+
+Rel(spa, sign, "Uses", "JSON/HTTPS")
+Rel(spa, accounts, "Uses", "JSON/HTTPS")
+
+Rel(ma, sign, "Uses", "JSON/HTTPS")
+Rel(ma, accounts, "Uses", "JSON/HTTPS")
+@enduml
+
+@startuml
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+
+
+
+
+
+hide stereotype
+legend right
+|=              |= Type |
+|<#08427B>      | person |
+|<#686868>      | external person |
+|<#1168BD>   | system |
+|<#999999>      | external system |
+|<#438DD5>   | container |
+|<#85BBF0>   | component |
+endlegend
+
+title Component diagram for Internet Banking System - API Application
+
+rectangle "==Single Page Application\n//<size:12>[javascript and angular]</size>//\n\n Provides all the internet banking functionality to customers via their web browser." <<container>> as spa
+rectangle "==Mobile App\n//<size:12>[Xamarin]</size>//\n\n Provides a limited subset ot the internet banking functionality to customers via their mobile mobile device." <<container>> as ma
+database "==Database\n//<size:12>[Relational Database Schema]</size>//\n\n Stores user registration information, hashed authentication credentials, access logs, etc." <<container>> as db
+rectangle "==Mainframe Banking System\n\n Stores all of the core banking information about customers, accounts, transactions, etc." <<external_system>> as mbs
+
+rectangle "==API Application\n<size:12>[Container]</size>" <<boundary>> as api {
+    rectangle "==Sign In Controller\n//<size:12>[MVC Rest Controlle]</size>//\n\n Allows users to sign in to the internet banking system" <<component>> as sign
+    rectangle "==Accounts Summary Controller\n//<size:12>[MVC Rest Controlle]</size>//\n\n Provides customers with a summory of their bank accounts" <<component>> as accounts
+    rectangle "==Security Component\n//<size:12>[Spring Bean]</size>//\n\n Provides functionality related to singing in, changing passwords, etc." <<component>> as security
+    rectangle "==Mainframe Banking System Facade\n//<size:12>[Spring Bean]</size>//\n\n A facade onto the mainframe banking system." <<component>> as mbsfacade
+
+    sign - -> security : "===Uses"
+    accounts - -> mbsfacade : "===Uses"
+    security - -> db : "===Read & write to\n//<size:12>[JDBC]</size>//"
+    mbsfacade - -> mbs : "===Uses\n//<size:12>[XML/HTTPS]</size>//"
+}
+
+spa - -> sign : "===Uses\n//<size:12>[JSON/HTTPS]</size>//"
+spa - -> accounts : "===Uses\n//<size:12>[JSON/HTTPS]</size>//"
+
+ma - -> sign : "===Uses\n//<size:12>[JSON/HTTPS]</size>//"
+ma - -> accounts : "===Uses\n//<size:12>[JSON/HTTPS]</size>//"
+@enduml
+
+PlantUML version 1.2020.15(Sun Jun 28 11:39:45 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
